@@ -1,0 +1,54 @@
+/* ModerateLevel.css */
+.moderate-container {
+  background-color: #ffffff;
+}
+
+.slide-container {
+  min-height: 300px;
+}
+
+.content-box p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.quiz-slide .question-box {
+  text-align: left;
+}
+
+.quiz-question .question-text {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.option-label {
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.nav-buttons .nav-button {
+  min-width: 120px;
+}
+
+/* Loading text center */
+.loading {
+  font-size: 1.2rem;
+  padding: 50px;
+}
+
+/* Fade in effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-container > .slide {
+  animation: fadeIn 0.5s ease-in-out;
+}
